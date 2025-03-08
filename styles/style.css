@@ -1,0 +1,109 @@
+/* general */
+@font-face {
+    font-family: P2P;
+    src: url(P2P.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    background: black;
+    font-family: P2P, monospace;
+    color: white;
+    margin: 35px 110px 0px 110px;
+}
+
+
+/* header */
+header {
+    font-size: 14px; /* To do: add fixed header */
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 1000;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    padding: 0 2vw 0 0;
+}
+
+header a:link, a:visited, a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: none;
+}
+
+header a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#links {
+    background-image: url(/media/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+    background-position: -15px -5px;
+    background-size:contain;
+}
+
+#chat {
+    background-image: url(/media/Ellipse\ 2.png);
+    background-repeat: no-repeat;
+    background-position: -22px -10px;
+    background-size:contain;
+}
+
+/* body */
+.middle {
+    flex-grow: 1;
+    font-size: 12px;
+}
+
+/* footer */
+footer {
+    font-size: 12px
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+footer ul li {
+    padding: 0.5vh 0 0.5vh 0;
+}
+
+footer a:link, a:visited, a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: none;
+}
+
+footer a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#table-of-contents-title {
+    padding-bottom: 15px;
+}
+
+#blueband {
+    background: rgb(1, 0, 225);
+    box-shadow: 0 0 0 100vmax rgb(1, 0, 225);
+    clip-path: inset(0 -100vmax);
+    min-height: 10vh;
+}

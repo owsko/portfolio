@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Injurial;
+    src: url(/fonts/InjurialRegular.otf);
+}
+
+body {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+    font-family: "Press Start 2P", monospace;
+    /*font-family: "Injurial", monospace;*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+
+    overflow: auto;
+}
+
+
+
+
+.prevent {
+    user-select: none;
+}
+
+
+
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: help;
+}
+
+a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+::-moz-selection { 
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+  }
+  
+::selection {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+}
+
+
+@media (max-width: 800px) {
+    header {
+        padding: 16px 16px 0px 16px;
+        margin-top: 0px;
+    }
+   
+    body {
+        padding: 0vw;
+        font-size: 10px;
+    }
+
+    .parent-1 {
+        padding: 1.2% 4% 0 4%;
+    }
+
+    .iframe {
+        padding: 1.2% 4% 0 4%;
+    }
+        
+}
+
+
+
