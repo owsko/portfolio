@@ -1,7 +1,7 @@
 /* general */
 @font-face {
-    font-family: OCRA;
-    src: url(OCRA.ttf);
+    font-family: P2P;
+    src: url(P2P.ttf);
 }
 
 body {
@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
 
     background: black;
-    font-family: OCRA, monospace;
+    font-family: P2P, monospace;
     color: white;
     margin: 35px 110px 0px 110px;
 }
